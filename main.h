@@ -1,13 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
-<<<<<<< HEAD
 
 #include <stdarg.h>
 int _putchar(char c);
 int _puts(char *str);
 
 int _printf(const char *format, ...);
-=======
+
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -110,7 +109,8 @@ char buffer[],
 	int flags, int width, int precisn, int size);
 
 int write_pointer(char buffer[], int ind, int length,
-        int width, int flags, char padd, char extra_c, int padd_start);
+		int width, int flags, char padd, char extra_c, int padd_start);
+
 
 /****************** UTILS ******************/
 int is_printable(char);
@@ -119,6 +119,5 @@ int is_digit(char);
 
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
->>>>>>> feature
 
 #endif /* MAIN_H */
